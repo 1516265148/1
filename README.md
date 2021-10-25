@@ -26,6 +26,28 @@ public class Sagit {
 		Scanner number = new Scanner(System.in);
 		
 		/*
+		 * 课堂做出狗东网页
+		 * 
+		 */
+		System.out.print("\t" + atc(9619) + atc(9619) + "热爱美好新时代" + atc(9619) + atc(9619)
+				+ "\n" + atc(9794) + "手表\t"+ atc(9794) + "高达\t" + atc(9794) + "二手手机\t"+ atc(9794) + "键盘"
+				+ "\n" );
+		int pp = number.nextInt();
+		if(pp == 1) {
+			System.out.print("\t" + atc(9619) + atc(9619) + "热爱美好新时代" + atc(9619) + atc(9619)
+			+ "\n" + atc(9794) + "手表\t"+ atc(9794) + "高达\t" + atc(9794) + "二手手机\t"+ atc(9794) + "键盘"
+			+ "\n" + "99999999");
+		}else if(pp == 2) {
+			System.out.print("\t" + atc(9619) + atc(9619) + "热爱美好新时代" + atc(9619) + atc(9619)
+			+ "\n" + atc(9794) + "手表\t"+ atc(9794) + "高达\t" + atc(9794) + "二手手机\t"+ atc(9794) + "键盘"
+			+ "\n" + "123123123123");
+		}
+		
+		
+		
+		System.out.println("\n" + "\n" + "\n");
+		
+		/*
 		 * 84页三.(1)
 		 * 1-80中5的倍数之和
 		 * 
@@ -34,12 +56,12 @@ public class Sagit {
 		int acount = 0;
 		while(a<=80){
 			if(a % 5 ==0) {
-				System.out.print("5的倍数有：\t");
-				System.out.println(a);
+				//System.out.print("5的倍数有：\t");
+				//System.out.println(a);
 				acount = acount + a;
 			}else {
-				System.out.print("不是5的倍数有：\t");
-				System.out.println(a);
+				//System.out.print("不是5的倍数有：\t");
+				//System.out.println(a);
 			}
 			a++;
 		}
@@ -94,9 +116,6 @@ public class Sagit {
 		int jx = 1;
 		int jy = 1;
 		int j = 0;
-		//for(int jloop=1;jloop<4;jloop++) {
-			
-		//}
 		while(jy <= 4) {
 			while(jx <= 5) {
 				j = j + jy;
@@ -173,7 +192,6 @@ public class Sagit {
 		System.out.println("陈洋今天吃了几个小汉堡？");
 		pnumber = number.nextInt();
 		price = price * pnumber;
-		number.close();
 		System.out.println("姓名：" + name + "\n" +"性别：" + sexc + "(薛定谔的性别)"
 				+ "\n" + "食物：" + food + "\n" + "数量：" + pnumber 
 				+ "\n" +"价格：" + price + "\n");
@@ -265,6 +283,7 @@ public class Sagit {
 		}
 		writeFile(new File("/home/guest/eclipse-workspace/1.txt"), sb.toString(), "utf-8");
 		//System.out.print(sb);
+		number.close();
 	}
 	/**
 	写文件
