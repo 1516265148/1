@@ -6,6 +6,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import javax.imageio.ImageIO;
+
+import java.util.Arrays;
 import java.util.Random;
 import java.lang.Math;
 import java.util.Scanner;
@@ -22,30 +24,91 @@ public class Sagit {
 			'.', ',', '*', '+', '=', '&', '$', '@', '#', ' '
 	};
 	public static void main(String[] args) throws IOException {
-
 		Scanner number = new Scanner(System.in);
-		
 		/*
-		 * 课堂做出狗东网页
+		 * 107页3.(100道门)
+		 */
+		boolean[] door = new boolean[100];
+		Arrays.fill(door, false);
+		for(int i=0;i<100;i++) {
+			int doorn = i + 1; //+
+			for(int w=1;w<=100;w++) { //门牌号是服务员编号的整数倍则取反
+				if(doorn % w == 0) {
+					door[i] = !door[i];
+				}
+			}
+			if(door[i]) {
+				System.out.println("第" + doorn + "扇门为开");
+			}else {
+				System.out.println("\t第" + doorn + "扇门为关");
+			}
+			//System.out.println(door[i]);
+		}
+		System.out.println("\n" + "\n");
+
+		/*
+		 * 107 4
 		 * 
 		 */
-		System.out.print("\t" + atc(9619) + atc(9619) + "热爱美好新时代" + atc(9619) + atc(9619)
-				+ "\n" + atc(9794) + "手表\t"+ atc(9794) + "高达\t" + atc(9794) + "二手手机\t"+ atc(9794) + "键盘"
-				+ "\n" );
-		int pp = number.nextInt();
-		if(pp == 1) {
-			System.out.print("\t" + atc(9619) + atc(9619) + "热爱美好新时代" + atc(9619) + atc(9619)
-			+ "\n" + atc(9794) + "手表\t"+ atc(9794) + "高达\t" + atc(9794) + "二手手机\t"+ atc(9794) + "键盘"
-			+ "\n" + "99999999");
-		}else if(pp == 2) {
-			System.out.print("\t" + atc(9619) + atc(9619) + "热爱美好新时代" + atc(9619) + atc(9619)
-			+ "\n" + atc(9794) + "手表\t"+ atc(9794) + "高达\t" + atc(9794) + "二手手机\t"+ atc(9794) + "键盘"
-			+ "\n" + "123123123123");
+		String[] B = new String[5];
+		B[0] = "陈洋";
+		B[1] = "马嘉锦";
+		B[2] = "洪楚平";
+		int[][] BC = new int[3][];
+		for(int i=0;i<3;i++) {
+			BC[i] = new int[4];
 		}
+		BC[0][0] = 60;
+		BC[0][1] = 61;
+		BC[0][2] = 62;
+		BC[0][3] = 63;
+
+		BC[1][0] = 91;
+		BC[1][1] = 62;
+		BC[1][2] = 73;
+		BC[1][3] = 84;
+
+		BC[2][0] = 77;
+		BC[2][1] = 66;
+		BC[2][2] = 55;
+		BC[2][3] = 44;
+		for(int i=0,i1=1;i<3;i++,i1++) {
+			System.out.println(i1 + B[i]);
+			
+		}
+		int p;
+		System.out.println("输入学号查看学生成绩：");
+		do {
+			p = number.nextInt();
+			if(p<1 || p>3) {
+				System.out.println("输入错误，范围1-3，重新输入：");
+				p = -1;
+				continue;
+			}
+			System.out.println(B[p-1] + "的成绩如下：");
+			for(int i=0;i<4;i++) {
+				switch(i) {
+				case 1:
+					System.out.println("C语言程序设计:" + BC[p-1][i]);
+					break;
+				case 2:
+					System.out.println("物理：" + BC[p-1][i]);
+					break;
+				case 3:
+					System.out.println("英语:" + BC[p-1][i]);
+					break;
+				case 4:
+					System.out.println("高等数学:" + BC[p-1][i]);
+					break;
+				}
+			}
+			
+		}while(p==-1);
+		System.out.println("\n" + "\n");
 		
-		
-		
-		System.out.println("\n" + "\n" + "\n");
+		/*
+		 * 
+		 */
 		
 		/*
 		 * 84页三.(1)
@@ -75,8 +138,8 @@ public class Sagit {
 		 */
 		System.out.println("请输入一个整数：（-1结束）");
 		int qaq = number.nextInt();;
-		int qaqmax = qaq;
-		int qaqmin = qaq;
+		int qaqmax = qaq; //最大值
+		int qaqmin = qaq; //最小值
 		
 		if(qaq == -1) {
 			System.out.println("你找碴是不是，上来就-1？");
@@ -84,14 +147,15 @@ public class Sagit {
 		}else {
 			do {
 				qaq = number.nextInt();
+				/*将-1也算上
 				if(qaqmax < qaq) {
 					qaqmax = qaq;
 				}
 				if(qaqmin > qaq) {
 					qaqmin = qaq;
 				}
-				/*
-				 * 如果不将-1算上，则去掉这段注释
+				//*/
+				 //* 如果不将-1算上，则去掉这段注释
 				if(qaq == -1) {
 					break;
 				}else {
@@ -102,7 +166,7 @@ public class Sagit {
 						qaqmin = qaq;
 					}
 				}
-				*/
+				//*/
 			}while(qaq != -1);
 			System.out.println("最大值：" + qaqmax + "\n" + "最小值：" + qaqmin);
 		}
@@ -127,6 +191,59 @@ public class Sagit {
 			j = 0;
 			System.out.print("\n");
 		}
+		
+
+		/*
+		 * 数组
+		 */
+		System.out.print("请输入数组大小：");
+		int size = number.nextInt();
+		int[] jdprice = new int[size];
+		for(int array=0;array<jdprice.length;array++) {
+			System.out.print("请输入jdprice[" + array + "]=");
+			jdprice[array]=number.nextInt();
+		}
+		for(int array = 0; array < size; array++) {
+			System.out.print(jdprice[array] + " ");
+		}		
+		/*
+		 * 反序输出数组
+		 */
+		System.out.println("反序输出数组");
+		for(int i=jdprice.length-1;i>=0;i--) {
+			System.out.print(jdprice[i] + " ");
+		}
+		System.out.println("\n");
+		
+		/*
+		 * 冒泡排序
+		 * 输入后判断大小排序
+		 */
+		System.out.println("冒泡排序");
+		for(int a1=0;a1<jdprice.length-1;a1++) { //a1循环至数组长度
+			for(int a2=0;a2<jdprice.length-1-a1;a2++) { //a2循环至数组前一位
+				if(jdprice[a2]>jdprice[a2+1]) {
+					int ass = jdprice[a2+1];
+					jdprice[a2+1]=jdprice[a2];
+					jdprice[a2]=ass;
+				}
+				System.out.print(jdprice[a2] + " ");
+			}
+			System.out.print("[");
+			for(int a2=jdprice.length-1-a1;a2<jdprice.length;a2++) {
+				System.out.print(jdprice[a2] + " ");
+			}
+			System.out.print("]\n");
+		}
+		double jdavge = 0;
+		for(int i=0;i<jdprice.length;i++) {
+			jdavge += jdprice[i];
+		}
+		jdavge = jdavge / jdprice.length;
+		System.out.println("平均值=" + jdavge);
+		
+
+		System.out.println("\n" + "\n");
 		
 		
 		/*
@@ -155,6 +272,27 @@ public class Sagit {
 		}else {
 			System.out.println("鸡：\t" + ck + "\n" + "兔：\t" + rab + "\n" + "\n");
 		}
+		
+
+		/*
+		 * 狗东网页
+		 * 
+		 */
+		System.out.print("\t" + atc(9619) + atc(9619) + "热爱美好新时代" + atc(9619) + atc(9619)
+				+ "\n" + atc(9794) + "手表\t"+ atc(9794) + "高达\t" + atc(9794) + "二手手机\t"+ atc(9794) + "键盘"
+				+ "\n" );
+		int pp = number.nextInt();
+		if(pp == 1) {
+			System.out.print("\t" + atc(9619) + atc(9619) + "热爱美好新时代" + atc(9619) + atc(9619)
+			+ "\n" + atc(9794) + "手表\t"+ atc(9794) + "高达\t" + atc(9794) + "二手手机\t"+ atc(9794) + "键盘"
+			+ "\n" + "99999999");
+		}else if(pp == 2) {
+			System.out.print("\t" + atc(9619) + atc(9619) + "热爱美好新时代" + atc(9619) + atc(9619)
+			+ "\n" + atc(9794) + "手表\t"+ atc(9794) + "高达\t" + atc(9794) + "二手手机\t"+ atc(9794) + "键盘"
+			+ "\n" + "123123123123");
+		}
+
+		System.out.println("\n" + "\n" + "\n");
 		
 		/*
 		 * 2021/10/20
