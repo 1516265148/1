@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://cwv587.com/link/A70Cnd8hV0FKYCnK?clash=1&confusion-host=shoutingtoutiao3.10010.com
+#!MANAGED-CONFIG https://cwv587.com/link/A70Cnd8hV0FKYCnK?clash=1&confusion-host=dldir1.qq.com
 
 #---------------------------------------------------#
 ## 上次更新于：2021-12-14 02:23:10
@@ -25,7 +25,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇨🇳 国内杭州 ➤ 千兆节点 ➤ x1'
     type: vmess
@@ -38,7 +38,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '国内长沙 ➤ 千兆节点 ➤ x1'
     type: vmess
@@ -51,7 +51,7 @@ proxies:
     network: ws
     ws-path: /TS/recharge/tzUrl.html
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇰🇷 韩国 ➤CN2+超低延迟游戏线路 ➤x10'
     type: vmess
@@ -64,7 +64,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港 ➤ 5GB带宽优质线路 ➤ x1'
     type: vmess
@@ -77,7 +77,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港 ➤ 三网优化专线 ➤ x1'
     type: vmess
@@ -90,7 +90,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港 ➤ 三网优选线路 ➤ x1'
     type: vmess
@@ -103,7 +103,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港 ➤ 三网直连优化 ➤ x1'
     type: vmess
@@ -116,7 +116,7 @@ proxies:
     network: ws
     ws-path: /TS/recharge/tzUrl.html
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港负载均衡 ➤Tcp线路（超低延迟） ➤x1'
     type: vmess
@@ -138,7 +138,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇯🇵 日本 ➤ 原生ip解锁Netflix等流媒体 ➤ x1'
     type: vmess
@@ -151,7 +151,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇺🇲 洛杉矶原生ip ➤ 解锁Netflix TVB等流媒体 ➤ x1'
     type: vmess
@@ -164,7 +164,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港 ➤ 独享 ➤ x1'
     type: vmess
@@ -177,7 +177,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港1 ➤ 独享 ➤ x1'
     type: vmess
@@ -190,7 +190,7 @@ proxies:
     network: ws
     ws-path: /TS/recharge/tzUrl.html
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港2 ➤ 独享 ➤ x1'
     type: vmess
@@ -203,7 +203,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港3 ➤ 独享 ➤ x1'
     type: vmess
@@ -216,7 +216,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港5 ➤ 独享tcp线路（超低延迟） ➤ x1'
     type: vmess
@@ -238,7 +238,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇭🇰 香港HGC线路 ➤解锁香港解鎖Netflix TVB HKTV ViuTV等流媒体➤x1'
     type: vmess
@@ -251,7 +251,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
   -
     name: '🇲🇾 马来西亚 ➤ 解锁超多流媒体NF spofity kkbox steam 等等 ➤ x1'
     type: vmess
@@ -264,7 +264,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: dldir1.qq.com
 proxy-groups:
   -
     name: ♻️自动选择
