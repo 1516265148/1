@@ -478,6 +478,7 @@ rules:
   - DOMAIN-SUFFIX,ampproject.org,🔰国外流量
   - DOMAIN-SUFFIX,g.co,🔰国外流量
   - DOMAIN-SUFFIX,edu.cn,🔰国外流量
+  - DOMAIN-KEYWORD,okex,🔰国外流量
   - DOMAIN-KEYWORD,btsow,🔰国外流量
   - DOMAIN-KEYWORD,exhentai,🔰国外流量
   - DOMAIN-SUFFIX,hanime1.me,🔰国外流量
