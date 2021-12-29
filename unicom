@@ -3,7 +3,6 @@
 #---------------------------------------------------#
 ## 上次更新于：2021-12-22 04:38:58
 #---------------------------------------------------#
-
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -13,19 +12,6 @@ log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
-  -
-    name: '🇭🇰 V2云千兆白嫖节点香港 ➤每日流量到达500G自动关机➤ x0 '
-    type: vmess
-    server: 13.75.1.184
-    port: 80
-    uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
-    alterId: 2
-    cipher: auto
-    udp: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: shoutingtoutiao3.10010.com
   -
     name: '🇷🇺 俄罗斯 ➤ 公益免费 ➤ x0'
     type: vmess
@@ -42,7 +28,7 @@ proxies:
   -
     name: "🇨🇳 \_国内北京 ➤ 千兆节点 ➤ x1"
     type: vmess
-    server: cw5.cwzz.tk
+    server: cw.cwzz.tk
     port: 80
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
@@ -107,7 +93,7 @@ proxies:
   -
     name: '🇯🇵 日本 ➤ 高速 ➤ x1'
     type: vmess
-    server: 23.100.96.225
+    server: 13.73.24.234
     port: 80
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
@@ -121,7 +107,7 @@ proxies:
     name: '🇫🇷 法国 ➤ 巴黎高速 ➤ x1'
     type: vmess
     server: cw.cwzz.tk
-    port: 34857
+    port: 50787
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
     cipher: auto
@@ -147,7 +133,7 @@ proxies:
     name: '🇳🇱 荷兰 ➤ 高速 ➤ x1'
     type: vmess
     server: cw.cwzz.tk
-    port: 42724
+    port: 5442
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
     cipher: auto
@@ -159,7 +145,7 @@ proxies:
   -
     name: '🇰🇷 韩国 ➤ 高速 ➤ x1'
     type: vmess
-    server: 52.231.12.207
+    server: 20.194.17.123
     port: 80
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
@@ -199,7 +185,7 @@ proxies:
     name: '🇺🇲 洛杉矶 ➤ gia线路 ➤ x1'
     type: vmess
     server: 45.135.116.156
-    port: 80
+    port: 8080
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
     cipher: auto
@@ -224,7 +210,7 @@ proxies:
   -
     name: '🇭🇰 香港 ➤ 独享 ➤ x1'
     type: vmess
-    server: 52.229.158.240
+    server: 13.94.32.51
     port: 80
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
@@ -237,7 +223,7 @@ proxies:
   -
     name: '🇭🇰 香港1 ➤ 独享 ➤ x1'
     type: vmess
-    server: 20.189.70.244
+    server: 20.187.84.228
     port: 80
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
@@ -250,7 +236,7 @@ proxies:
   -
     name: '🇭🇰 香港2 ➤ 独享 ➤ x1'
     type: vmess
-    server: 20.187.83.196
+    server: 52.184.20.7
     port: 80
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
@@ -300,6 +286,19 @@ proxies:
     type: vmess
     server: cw.cwzz.tk
     port: 52981
+    uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
+    alterId: 2
+    cipher: auto
+    udp: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: shoutingtoutiao3.10010.com
+  -
+    name: '🇭🇰 香港WTT线路 ➤解锁香港解鎖Netflix TVB HKTV ViuTV等流媒体➤x1'
+    type: vmess
+    server: cw.cwzz.tk
+    port: 44912
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
     cipher: auto
@@ -389,7 +388,7 @@ proxies:
   -
     name: '🇭🇰 香港 ➤ 三网优选线路 ➤ x1'
     type: vmess
-    server: 168.63.209.160
+    server: 52.175.60.178
     port: 80
     uuid: 1e7c66c0-db94-3514-8beb-c42567fc3648
     alterId: 2
@@ -431,9 +430,12 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   -
-    name: 🔰国外流量
+   name: 🔰国外流量
     type: select
     proxies:
+      - ♻️自动选择
+      - '🇷🇺 俄罗斯 ➤ 公益免费 ➤ x0'
+      - "🇨🇳 \_国内北京 ➤ 千兆节点 ➤ x1"
       - '🇬🇧 伦敦 ➤ 高速 ➤ x1'
       - '🇨🇦 加拿大 ➤ 高速 ➤ x1'
       - '🇩🇪 德国 ➤ 高速 ➤ x1'
@@ -454,7 +456,10 @@ proxy-groups:
       - '🇭🇰 香港5 ➤ 独享tcp线路（超低延迟） ➤ x1'
       - '🇭🇰 香港CMI线路 ➤解锁香港解鎖Netflix TVB HKTV ViuTV等流媒体➤x1'
       - '🇭🇰 香港HGC线路 ➤解锁香港解鎖Netflix TVB HKTV ViuTV等流媒体➤x1'
+      - '🇭🇰 香港WTT线路 ➤解锁香港解鎖Netflix TVB HKTV ViuTV等流媒体➤x1'
       - '🇲🇾 马来西亚 ➤ 解锁超多流媒体NF spofity kkbox steam 等等 ➤ x1'
+      - '🇨🇳 国内杭州 ➤ 千兆节点 ➤ x1'
+      - '国内长沙 ➤ 千兆节点 ➤ x1'
       - '🇰🇷 韩国 ➤CN2+超低延迟游戏线路 ➤x10'
       - '🇭🇰 香港 ➤ 5GB带宽优质线路 ➤ x1'
       - '🇭🇰 香港 ➤ 三网优化专线 ➤ x1'
@@ -470,11 +475,7 @@ proxy-groups:
       - '🇨🇳 国内杭州 ➤ 千兆节点 ➤ x1'
       - '国内长沙 ➤ 千兆节点 ➤ x1'
       
-
 rules:
-  - DOMAIN-SUFFIX,smtp,DIRECT
-  - DOMAIN-KEYWORD,aria2,DIRECT
-
   - DOMAIN-SUFFIX,ampproject.org,🔰国外流量
   - DOMAIN-SUFFIX,g.co,🔰国外流量
   - DOMAIN-SUFFIX,edu.cn,🔰国外流量
