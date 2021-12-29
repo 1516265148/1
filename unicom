@@ -430,7 +430,7 @@ proxy-groups:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
   -
-   name: 🔰国外流量
+    name: 🔰国外流量
     type: select
     proxies:
       - ♻️自动选择
