@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://cwv587.com/link/JsCgRk0v8AD1djk8?clash=1&confusion-host=shoutingtoutiao3.10010.com
+#!MANAGED-CONFIG https://cwv587.com/link/JsCgRk0v8AD1djk8?clash=1&confusion-host=smartad.10010.com
 
 #---------------------------------------------------#
 ## 上次更新于：2021-12-22 04:38:58
@@ -24,7 +24,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: "🇨🇳 \_国内北京 ➤ 千兆节点 ➤ x1"
     type: vmess
@@ -37,7 +37,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇬🇧 伦敦 ➤ 高速 ➤ x1'
     type: vmess
@@ -50,7 +50,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇨🇦 加拿大 ➤ 高速 ➤ x1'
     type: vmess
@@ -63,7 +63,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇩🇪 德国 ➤ 高速 ➤ x1'
     type: vmess
@@ -76,7 +76,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇸🇬 新加坡➤高速 ➤ x1'
     type: vmess
@@ -89,7 +89,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇯🇵 日本 ➤ 高速 ➤ x1'
     type: vmess
@@ -102,7 +102,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇫🇷 法国 ➤ 巴黎高速 ➤ x1'
     type: vmess
@@ -115,7 +115,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇺🇲 洛杉矶 ➤ 高速➤x1'
     type: vmess
@@ -128,7 +128,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇳🇱 荷兰 ➤ 高速 ➤ x1'
     type: vmess
@@ -141,7 +141,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇰🇷 韩国 ➤ 高速 ➤ x1'
     type: vmess
@@ -154,7 +154,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇹🇼 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x1'
     type: vmess
@@ -167,7 +167,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇯🇵 日本 ➤ 原生ip解锁Netflix等流媒体 ➤ x1'
     type: vmess
@@ -180,7 +180,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇺🇲 洛杉矶 ➤ gia线路 ➤ x1'
     type: vmess
@@ -193,7 +193,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇺🇲 洛杉矶 ➤ 原生ip解锁disney neftlix等流媒体 ➤ x1'
     type: vmess
@@ -206,7 +206,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港 ➤ 独享 ➤ x1'
     type: vmess
@@ -219,7 +219,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港1 ➤ 独享 ➤ x1'
     type: vmess
@@ -232,7 +232,7 @@ proxies:
     network: ws
     ws-path: /TS/recharge/tzUrl.html
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港2 ➤ 独享 ➤ x1'
     type: vmess
@@ -245,7 +245,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港3 ➤ 独享 ➤ x1'
     type: vmess
@@ -258,7 +258,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港5 ➤ 独享tcp线路（超低延迟） ➤ x1'
     type: vmess
@@ -280,7 +280,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港HGC线路 ➤解锁香港解鎖Netflix TVB HKTV ViuTV等流媒体➤x1'
     type: vmess
@@ -293,7 +293,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港WTT线路 ➤解锁香港解鎖Netflix TVB HKTV ViuTV等流媒体➤x1'
     type: vmess
@@ -306,7 +306,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇲🇾 马来西亚 ➤ 解锁超多流媒体NF spofity kkbox steam 等等 ➤ x1'
     type: vmess
@@ -319,7 +319,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇨🇳 国内杭州 ➤ 千兆节点 ➤ x1'
     type: vmess
@@ -332,7 +332,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '国内长沙 ➤ 千兆节点 ➤ x1'
     type: vmess
@@ -345,7 +345,7 @@ proxies:
     network: ws
     ws-path: /TS/recharge/tzUrl.html
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇰🇷 韩国 ➤CN2+超低延迟游戏线路 ➤x10'
     type: vmess
@@ -358,7 +358,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港 ➤ 5GB带宽优质线路 ➤ x1'
     type: vmess
@@ -371,7 +371,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港 ➤ 三网优化专线 ➤ x1'
     type: vmess
@@ -384,7 +384,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港 ➤ 三网优选线路 ➤ x1'
     type: vmess
@@ -397,7 +397,7 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港 ➤ 三网直连优化 ➤ x1'
     type: vmess
@@ -410,7 +410,7 @@ proxies:
     network: ws
     ws-path: /TS/recharge/tzUrl.html
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: smartad.10010.com
   -
     name: '🇭🇰 香港负载均衡 ➤Tcp线路（超低延迟） ➤x1'
     type: vmess
